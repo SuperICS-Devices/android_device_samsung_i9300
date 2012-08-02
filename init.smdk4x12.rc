@@ -11,7 +11,7 @@ on early-init
 
     # for backwards compatibility
     symlink /mnt/sdcard /sdcard
-    symlink /mnt/extSdCard /extSdCard
+    symlink /mnt/extSdCard /sdcard/external_sd
     symlink /efs /factory
 
     mkdir /efs
