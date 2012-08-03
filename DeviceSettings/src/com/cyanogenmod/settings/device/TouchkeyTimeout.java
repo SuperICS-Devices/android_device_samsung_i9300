@@ -48,7 +48,7 @@ public class TouchkeyTimeout extends ListPreference implements OnPreferenceChang
         }
 
         SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(context);
-        Utils.writeValue(FILE_TOUCHKEY_TIMEOUT, sharedPrefs.getString(DeviceSettings.KEY_TOUCHKEY_TIMEOUT, "3"));
+        Utils.writeValue(FILE_TOUCHKEY_TIMEOUT, sharedPrefs.getString(DeviceSettings.KEY_TOUCHKEY_TIMEOUT, "2"));
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {

@@ -2,8 +2,8 @@
 
     <string-array name="vibrator_intensity_entries">
         <item>0%</item>
-        <item>25%</item>
-        <item>50% (Default)</item>
+        <item>25% (Default)</item>
+        <item>50% </item>
         <item>75%</item>
         <item>100%</item>
     </string-array>
@@ -87,8 +87,8 @@
     <string-array name="touchkey_timeout_entries">
         <item>Never</item>
         <item>1 second</item>
-        <item>2 seconds</item>
-        <item>3 seconds (Default)</item>
+        <item>2 seconds (Default)</item>
+        <item>3 seconds </item>
         <item>4 seconds</item>
         <item>5 seconds</item>
         <item>6 seconds</item>

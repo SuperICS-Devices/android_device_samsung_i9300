@@ -59,7 +59,7 @@
                 android:summary="@string/touchkey_timeout_summary_head"
                 android:entries="@array/touchkey_timeout_entries"
                 android:entryValues="@array/touchkey_timeout_entries_values"
-                android:defaultValue="3" />
+                android:defaultValue="2" />
     </PreferenceCategory>
 
 </PreferenceScreen>
