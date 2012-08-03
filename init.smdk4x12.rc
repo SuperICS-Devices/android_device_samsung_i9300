@@ -495,3 +495,13 @@ service TvoutService_C /system/bin/bintvoutservice
      class main
      user system
      group graphics
+
+# Extras SuperOSR
+
+#For mount SDCARD ext
+on property:ro.superextras=1
+    start extras
+
+service extras /system/bin/logwrapper /system/xbin/busybox run-parts /system/etc/extras/
+    disabled
+    oneshot

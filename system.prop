@@ -8,3 +8,4 @@ ro.sf.lcd_density=320
 ro.lcd_min_brightness=20
 ro.ril.hsxpa=1
 ro.ril.gprsclass=10
+ro.superextras=1
